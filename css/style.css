@@ -1,14 +1,10 @@
-/**************************/
-/* HEADER */
-/**************************/
+
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #fdf2e9;
-
-  /* Because we want header to be sticky later */
   height: 9.6rem;
   padding: 0 4.8rem;
 }
@@ -16,10 +12,6 @@
 .logo {
   height: 2.2rem;
 }
-
-/**************************/
-/* NAVIGATION */
-/**************************/
 
 .main-nav-list {
   list-style: none;
@@ -55,11 +47,6 @@
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
 }
-
-/**************************/
-/* HERO SECTION */
-/**************************/
-
 .section-hero {
   background-color: #fdf2e9;
   padding: 4.8rem 0 9.6rem 0;
@@ -118,10 +105,6 @@
   font-weight: 700;
 }
 
-/**************************/
-/* FEATURED IN SECTION */
-/**************************/
-
 .section-featured {
   padding: 4.8rem 0 3.2rem 0;
 }
@@ -147,9 +130,6 @@
   opacity: 50%;
 }
 
-/**************************/
-/* HOW IT WORKS SECTION */
-/**************************/
 
 .section-how {
   padding: 9.6rem 0;
@@ -188,9 +168,6 @@
 
 .step-img-box::before {
   width: 60%;
-  /* height: 60%; */
-
-  /* 60% of parent's width */
   padding-bottom: 60%;
 
   background-color: #fdf2e9;
@@ -206,12 +183,9 @@
 
 .step-img {
   width: 35%;
-  /* z-index: 10; */
+
 }
 
-/**************************/
-/* MEALS SECTION */
-/**************************/
 
 .section-meals {
   padding: 9.6rem 0;
@@ -295,10 +269,6 @@
   font-size: 1.8rem;
 }
 
-/**************************/
-/* TESTIMONIALS SECTION */
-/**************************/
-
 .section-testimonials {
   background-color: #fdf2e9;
   display: grid;
@@ -354,11 +324,6 @@
 .gallery-item img:hover {
   transform: scale(1.1);
 }
-
-/**************************/
-/* MEALS SECTION */
-/**************************/
-
 .section-pricing {
   padding: 9.6rem 0;
 }
@@ -463,22 +428,16 @@
   line-height: 1.8;
 }
 
-/**************************/
-/* CTA SECTION */
-/**************************/
+
 
 .section-cta {
-  /* top / right / bottom / left */
-  /* padding: 9.6rem 0 12.8rem 0; */
 
-  /* top / horizontal / left */
   padding: 4.8rem 0 12.8rem;
 }
 
 .cta {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  /* background-color: #e67e22; */
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
 
@@ -550,9 +509,7 @@
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
 
-/**************************/
-/* FOOTER */
-/**************************/
+
 
 .footer {
   padding: 12.8rem 0;
